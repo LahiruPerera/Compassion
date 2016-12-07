@@ -93,9 +93,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!--point 2-->
 			  		<div class="col-md-6 about-bot-right" id="des2">
 			  			<div class="col-md-4 advan-cup" >
-			  				<a href="#" rel="title" class="zoom-mask"> 
+			  				<!--a href="#" rel="title" class="zoom-mask"--> 
 							       <span class="glyphicon glyphicon-gift hovicon effect-4 sub-b" aria-hidden="true"> </span>
-						       </a>
+						       <!--/a-->
 			  			</div>
 			  			 <div class="col-md-8 advan-text" >
 				  				<h4>Place Your Donation</h4>
@@ -109,9 +109,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!--point 3-->
 			  		<div class="col-md-6 about-bot-left" id="des3">
 			  			<div class="col-md-4 advan-cup">
-			  				<a href="#" rel="title" class="zoom-mask">
+			  				<!--a href="#" rel="title" class="zoom-mask"-->
 			  					 <span class="glyphicon glyphicon-list hovicon effect-4 sub-b" aria-hidden="true"> </span>							       
-						       </a>
+						       <!--/a-->
 			  			</div>
 			  			 <div class="col-md-8 advan-text">
 				  				<h4>View Upcomming Events</h4>
@@ -122,9 +122,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!--point 4-->
 			  		<div class="col-md-6 about-bot-right" id="des4">
 			  			<div class="col-md-4 advan-cup">
-			  				<a href="#" rel="title" class="zoom-mask">
+			  				<!--a href="#" rel="title" class="zoom-mask"-->
 							       <span class="glyphicon glyphicon-heart-empty hovicon effect-4 sub-b" aria-hidden="true"> </span>
-						       </a>
+						       <!--/a-->
 			  			</div>
 			  			 <div class="col-md-8 advan-text">
 				  				<h4>Join as a Volunteer</h4>
@@ -139,9 +139,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!--point 5-->
 			  		<div class="col-md-12 about-bot-left" id="des3">
 			  			<div class="col-md-5 advan-cup">
-			  				<a href="#" rel="title" class="zoom-mask">
+			  				<!--a href="#" rel="title" class="zoom-mask"-->
 			  					 <span class="glyphicon glyphicon-piggy-bank hovicon effect-4 sub-b" aria-hidden="true"> </span>							       
-						       </a>
+						       <!--/a-->
 			  			</div>
 			  			 <div class="col-md-6 advan-text">
 				  				<h4>Request for  Donation</h4>
