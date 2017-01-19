@@ -2,29 +2,29 @@
 <html>
 <head>
 <title>Compassion</title>
-<link href="<?php echo base_url(); ?>comp/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="<?php echo base_url(); ?>compassion/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="<?php echo base_url(); ?>comp/js/jquery-1.11.0.min.js"></script>
+<script src="<?php echo base_url(); ?>compassion/js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
-<link href="<?php echo base_url(); ?>comp/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="<?php echo base_url(); ?>compassion/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Donate Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords" content="Donate Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android compassionatible web template, 
+Smartphone compassionatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--Google Fonts-->
 <link href='//fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
 <!--google fonts-->
 <!-- animated-css -->
-		<link href="<?php echo base_url(); ?>comp/css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<script src="<?php echo base_url(); ?>comp/js/wow.min.js"></script>
+		<link href="<?php echo base_url(); ?>compassion/css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="<?php echo base_url(); ?>compassion/js/wow.min.js"></script>
 		<script>
 		 new WOW().init();
 		</script>
 <!-- animated-css -->
-<script src="<?php echo base_url(); ?>comp/js/responsiveslides.min.js"></script>
+<script src="<?php echo base_url(); ?>compassion/js/responsiveslides.min.js"></script>
  <script>
     // You can also use "$(window).load(function() {"
     $(function () {
@@ -64,7 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header">
 	<div class="container">
 			   <div class="logo wow bounceInLeft" data-wow-delay="0.2s">
-			     <h1><a href="index.html">Compassion</a></h1>
+			     <h1><a href="<?php echo base_url(); ?>index.php/Login">Compassion</a></h1>
 			   </div>
 			   <div class="header-icons">
 			   	 <ul>
@@ -76,26 +76,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   </div>
 			    <div class="clearfix"> </div>
     </div>	
-    <a href="../ProgrammingIV/forms/SignUp.php" class="btn btn-info btn-lg pull-right" id="signup" role="button">Sign Up</a>  
-    <div class="GetInvolve">
-    <a href="#" class="btn btn-info btn-lg" role="button">Get involved</a>
-    <a href="#" class="btn btn-info btn-lg" role="button">Request Donation</a>
-	</div> 
+    <div class="righttop">
+    	<?php
+    if($this->session->userdata('logged_in'))
+    {	
+    	$name = $this->session->userdata('name');
+    	?>
+    	<div >
+    		<p class="text-right " style ="color:#fdbd10; font-size:20px;">Hello <?php echo $name; ?></p>
+    	</div>
+
+    	<a href="<?php echo base_url(); ?>index.php/dashboard/log_out" class="btn btn-info btn-lg pull-right" id="login" role="button">Logout</a>
+
+    	<div class="GetInvolve">
+	    <a href="<?php echo base_url(); ?>index.php/PlaceDonation" class="btn btn-info btn-lg" role="button">Place Donation</a>
+	    <a href="<?php echo base_url(); ?>index.php/Req_form_controller" class="btn btn-info btn-lg" role="button">Request Donation</a>
+		</div>
+		
+    <?php } 
+    else {
+  
+    ?>
+    	
+    	<a href="<?php echo base_url(); ?>index.php/Login" class="btn btn-info btn-lg pull-right" id="login" role="button">Login</a>
+    	<a href="<?php echo base_url(); ?>index.php/Home/signUp" class="btn btn-info btn-lg pull-right" id="getin" role="button">Get Involved</a>
+    
+	<?php
+	}
+	?>
+	</div>
 
 </div>
 
  <!--navgation start here-->
 <div class="top-nav">
-    	 <span class="menu"> <img src="images/icon.png" alt=""></span>	
+    	 <span class="menu"> <img src="<?php echo base_url(); ?>compassion/images/icon.png" alt=""></span>	
 		<ul class="res">
-			<li><a class="active" href="index.html"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
-			<li><a href="about.html"><i class="glyphicon glyphicon-user"> </i>About</a></li>
+			<li><a class="active" href="index.html<?php echo base_url(); ?>index.php/Home"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
+			<li><a href="<?php echo base_url(); ?>index.php/AboutUs"><i class="glyphicon glyphicon-user"> </i>About</a></li>
 			<li><a href="shortcodes.html"><i class="glyphicon glyphicon-list-alt"> </i>Events</a></li>
-		<!--
-			<li><a href="blog.html"><i class="glyphicon glyphicon-picture"> </i>Blog</a></li>
-		-->
-			<li><a href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>Contact</a></li>
-		</ul>
 		<!-- script-for-menu -->
 					 <script>
 					   $( "span.menu" ).click(function() {
@@ -159,7 +178,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</p>
 			</div>
 			<div class="col-md-6 vedio-right wow fadeInRight" data-wow-delay="0.3s">
-				<div class="img-box"><img src="images/img2.jpg" alt=""></div>
+				<div class="img-box"><img src="<?php echo base_url(); ?>compassion/images/img2.jpg" alt=""></div>
 
 			</div>
 		  <div class="clearfix"> </div>
@@ -195,7 +214,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="col-md-3 donate-grid wow fadeInLeft" data-wow-delay="0.3s">
 				<div class="fall-down-effect top">
-							<div class="img-box"><img src="images/d1.jpg" alt=""></div>
+							<div class="img-box"><img src="<?php echo base_url(); ?>compassion/images/d1.jpg" alt=""></div>
 							<div class="text-box">
 								<div class="text-content">
 									<h2>Help</h2>																																		
@@ -207,7 +226,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="col-md-3 donate-grid wow fadeInRight" data-wow-delay="0.3s">
 				<div class="fall-down-effect top">
-							<div class="img-box"><img src="images/d2.jpg" alt=""></div>
+							<div class="img-box"><img src="<?php echo base_url(); ?>compassion/images/d2.jpg" alt=""></div>
 							<div class="text-box">
 								<div class="text-content">
 									<h2>Help</h2>																																		
@@ -219,7 +238,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="col-md-3 donate-grid wow fadeInRight" data-wow-delay="0.3s">
 				<div class="fall-down-effect top">
-							<div class="img-box"><img src="images/d3.jpg" alt=""></div>
+							<div class="img-box"><img src="<?php echo base_url(); ?>compassion/images/d3.jpg" alt=""></div>
 							<div class="text-box">
 								<div class="text-content">
 									<h2>Help</h2>																																		
@@ -241,11 +260,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 ftr-grid wow zoomIn" data-wow-delay="0.3s">
 				<h3>Navigation</h3>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="shortcodes.html">Short Codes</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
 		
