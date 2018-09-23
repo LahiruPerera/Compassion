@@ -104,10 +104,12 @@
                             <a href="#"><i class="fa fa-calendar fa-fw"></i> Manage Events<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panels-wells.html">Update Event</a>
+                                    <a href="<?php echo base_url(); ?>index.php/Welcome/go_search">Search Event</a>
                                 </li>
                                 <li>
-                                    <a href="buttons.html">Add Event</a>
+        
+                                    
+                                    <a href="<?php echo base_url(); ?>index.php/Welcome/go_to">Add Event</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -140,8 +142,8 @@
                              Donation ID:<?php echo $row->donationID;?></br>Donation Type: <?php echo $row->donationType;?>
                             </div>
                             <div class="panel-body">
-                                <p><?php echo $row->paymentMethod;?></p>
-                                <p><?php echo $row->paymentFrequency;?></p>
+                                <p>Payment Method: <?php echo $row->paymentMethod;?></p>
+                                <p>Payment Frequency: <?php echo $row->paymentFrequency;?></p>
                             </div>
                             <div class="panel-footer">
                                 Amount : <?php echo $row->amount;?>

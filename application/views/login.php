@@ -33,12 +33,13 @@
 </head>
 
 <body>
-    <a href="<?php echo base_url(); ?>index.php/Home" class="btn btn-lg btn-link pull-left" id="back" role="button">Back to Home</a>
+    <a href="<?php echo base_url(); ?>index.php/Home" class="btn btn-lg btn-link pull-left" id="back" role="button"><span class="glyphicon glyphicon-arrow-left"></span> Back to Home</a>
+    <br>
     <div class="container">
 
         <div class="row">
 
-            <div class="col-md-4 col-md-offset-4">
+            <div class="col-md-4 col-md-offset-3">
                 <div class="login-panel panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">LOGIN TO CONTINUE</h3>
@@ -78,7 +79,8 @@
 
                             ?>
                         </div>
-                        <a href="<?php echo base_url(); ?>index.php/Home/signUp" class="btn btn-lg btn-link pull-left" id="back" role="button">Don't have account ?</a>
+                        <a href="<?php echo base_url(); ?>index.php/Home/signUp" class="btn btn-lg btn-link pull-left" id="back" role="button">Don't have an account ?</a>
+
                     </div>
                 </div>
             </div>

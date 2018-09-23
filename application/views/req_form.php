@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>Compassion</title>
-<link href="<?php echo base_url(); ?>compassion/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="<?php echo base_url(); ?>compassion/js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
@@ -19,6 +19,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="<?php echo base_url(); ?>compassion/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!--Google Fonts-->
 <link href='//fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
@@ -31,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <div class="container">
      <div class="header-main">
 	   <div class="logo">
-	     <h1><a href="index.html">Compassion</a></h1>
+	     <h1><a href="<?php echo base_url(); ?>index.php/Home">Compassion</a></h1>
 	   </div>
 	   <div class="header-icons">
 	   	 <ul>
@@ -49,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
   </div>
 <div class="top-nav">
-            	<span class="menu"> <img src="images/icon.png" alt=""></span>	
+            	<span class="menu"> <img src="<?php echo base_url(); ?>compassion/images/icon.png" alt=""></span>	
 				<ul class="res">
 					<li><a href="<?php echo base_url(); ?>index.php/Home"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
 					<li><a href="about.html"><i class="glyphicon glyphicon-user"> </i>About</a></li>					
@@ -80,7 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="col-md-6 contact-us">
 							
       							<select name="type" class="form-control" id="sel1" required>
-        							<option value="" disabled selected>Donation Type</option>
+        							<option value="" disabled selected>Request Type</option>
         							<option value="WhereMostNeeded">Where Most Needed</option>
         							<option value="UnsponseredChildren">Unsponsered Children</option>
         							<option value="HealthPrograms">Health Programs</option>

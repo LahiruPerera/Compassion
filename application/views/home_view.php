@@ -64,7 +64,7 @@ Smartphone compassionatible web template, free webdesigns for Nokia, Samsung, LG
 <div class="header">
 	<div class="container">
 			   <div class="logo wow bounceInLeft" data-wow-delay="0.2s">
-			     <h1><a href="<?php echo base_url(); ?>index.php/Login">Compassion</a></h1>
+			     <h1><a href="<?php echo base_url(); ?>index.php/Home">Compassion</a></h1>
 			   </div>
 			   <div class="header-icons">
 			   	 <ul>
@@ -83,10 +83,11 @@ Smartphone compassionatible web template, free webdesigns for Nokia, Samsung, LG
     	$name = $this->session->userdata('name');
     	?>
     	<div >
-    		<p class="text-right " style ="color:#fdbd10; font-size:20px;">Hello <?php echo $name; ?></p>
+    		<p class="text-right " style ="color:#fdbd10; font-size:25px; font-weight:bold;">Hello <?php echo $name; ?></p>
     	</div>
 
     	<a href="<?php echo base_url(); ?>index.php/dashboard/log_out" class="btn btn-info btn-lg pull-right" id="login" role="button">Logout</a>
+    	<a href="<?php echo base_url(); ?>index.php/Profile" class="btn btn-info btn-lg pull-right" id="login" role="button">My Profile</a>
 
     	<div class="GetInvolve">
 	    <a href="<?php echo base_url(); ?>index.php/PlaceDonation" class="btn btn-info btn-lg" role="button">Place Donation</a>
@@ -112,9 +113,10 @@ Smartphone compassionatible web template, free webdesigns for Nokia, Samsung, LG
 <div class="top-nav">
     	 <span class="menu"> <img src="<?php echo base_url(); ?>compassion/images/icon.png" alt=""></span>	
 		<ul class="res">
-			<li><a class="active" href="index.html<?php echo base_url(); ?>index.php/Home"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
+			<li><a class="active" href="<?php echo base_url(); ?>index.php/Home"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
 			<li><a href="<?php echo base_url(); ?>index.php/AboutUs"><i class="glyphicon glyphicon-user"> </i>About</a></li>
 			<li><a href="shortcodes.html"><i class="glyphicon glyphicon-list-alt"> </i>Events</a></li>
+		</ul>
 		<!-- script-for-menu -->
 					 <script>
 					   $( "span.menu" ).click(function() {

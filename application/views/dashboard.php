@@ -144,11 +144,13 @@
                              Request ID:<?php echo $row->requestID;?></br><?php echo $row->requestType;?>
                             </div>
                             <div class="panel-body">
-                                <p><?php echo $row->message;?></p>
+                                <p>Date: <?php echo $row->date;?><br>
+                                   <?php echo $row->message;?>
+                                </p>
                             </div>
                             <div class="panel-footer">
                                 Amount : <?php echo $row->amount;?>
-                                <a href="<?php echo base_url(); ?>index.php/dashboard/set_status/<?php echo $row->requestID?>/reject" class="btn btn-danger btn-xs pull-right " >Reject</a>
+                                <a href="<?php echo base_url(); ?>index.php/dashboard/set_status/<?php echo $row->requestID?>/reject" class="btn btn-danger btn-xs pull-right " style="margin-left :8px">Reject</a>
                                 <a href="<?php echo base_url(); ?>index.php/dashboard/set_status/<?php echo $row->requestID?>/accept" class="btn btn-success btn-xs pull-right" >Accept</a>
                             </div>
                         </div>

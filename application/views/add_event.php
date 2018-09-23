@@ -86,7 +86,10 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="<?php echo base_url(); ?>index.php/dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="<?php echo base_url(); ?>index.php/dashboard"><i class="fa fa-file-o fa-fw"></i> View Donation Request</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/view_place_donation"><i class="fa fa-file-o fa-fw"></i> View Place Donation</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-group fa-fw"></i> Manage members<span class="fa arrow"></span></a>
@@ -101,10 +104,12 @@
                             <a href="#"><i class="fa fa-calendar fa-fw"></i> Manage Events<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo site_url('Welcome/go_search');?>">Search Events</a>
+                                    <a href="<?php echo base_url(); ?>index.php/Welcome/go_search">Search Event</a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo site_url('Welcome/go_to');?>">Add Event</a>
+        
+                                    
+                                    <a href="<?php echo base_url(); ?>index.php/Welcome/go_to">Add Event</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->

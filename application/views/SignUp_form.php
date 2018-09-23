@@ -13,7 +13,7 @@
 <body id ="BG_image">
 <div class="container">
 	<div>
-		<a href="<?php echo base_url(); ?>index.php/Home" class="btn btn-lg btn-link pull-left" id="back" role="button">Back to Home</a>
+		<a href="<?php echo base_url(); ?>index.php/Home" class="btn btn-lg btn-link pull-left" id="back" role="button"><span class="glyphicon glyphicon-arrow-left"></span> Back to Home</a>
 				<?php 
                 if(isset($error) && $error!=1)
                 { 

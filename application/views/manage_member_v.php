@@ -93,7 +93,7 @@
                             <a href="#"><i class="fa fa-group fa-fw"></i> Manage members<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo base_url(); ?>index.php/manage_member">View members</a>
+                                    <a href="<?php echo base_url(); ?>index.php/manage_member/search">View members</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -102,10 +102,12 @@
                             <a href="#"><i class="fa fa-calendar fa-fw"></i> Manage Events<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panels-wells.html">Update Event</a>
+                                    <a href="<?php echo base_url(); ?>index.php/Welcome/go_search">Search Event</a>
                                 </li>
                                 <li>
-                                    <a href="buttons.html">Add Event</a>
+        
+                                    
+                                    <a href="<?php echo base_url(); ?>index.php/Welcome/go_to">Add Event</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -163,7 +165,7 @@
                                                 <th>Email</th>
                                                 <th>District</th>
                                                 <th>Occupation</th>
-                                                 <th></th>
+                                                <th></th>
                                             </tr>
                                         </thead>
 

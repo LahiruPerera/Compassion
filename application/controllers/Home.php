@@ -18,7 +18,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->library('form_validation');
 
-        $this->form_validation->set_rules('istrict', 'Name', 'trim|alpha_numeric_spaces');
+        $this->form_validation->set_rules('name', 'Name', 'trim|alpha_numeric_spaces');
         $this->form_validation->set_rules('contact', 'Contact number', 'numeric|min_length[10]');
         $this->form_validation->set_rules('email','Email Address','trim|required|min_length[10]|valid_email');
         $this->form_validation->set_rules('password1','Password','trim|min_length[6]');

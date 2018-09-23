@@ -100,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<option value="" disabled selected > Donation Type </option>
 									<option value="WhereMostNeeded" >Where Most Needed </option>
 									<option value="DisasterRelief" >Disaster Relief</option>
-									<option value="UnsponseredClildren" >Unsponsered Clildren</option>
+									<option value="UnsponseredChildren" >Unsponsered Clildren</option>
 									<option value="HealthPrograms">Health Programs</option>
 									<!--option value="Constructions">Constructions</option-->
 								</select>

@@ -11,7 +11,6 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-	//	$this->load->view('dashboard');
 
 		$this->load->view('login');
 
@@ -54,13 +53,13 @@ class Login extends CI_Controller {
 					break;
 
 				case 'incorrect_password':
-					echo "Invalid Password. Please try again.";
-					$this->load->view('login');
+					$errors['errors'] ="Invalid Password. Please try again.";
+					$this->load->view('login',$errors);
 					break;
 
 				case 'incorrect_email':
-					echo "Invalid Email. Please try again.";
-					$this->load->view('login');
+					$errors['errors'] ="Invalid Email. Please try again.";
+					$this->load->view('login',$errors);
 					break;	
 
 			}

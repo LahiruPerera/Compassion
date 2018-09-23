@@ -3,7 +3,10 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<<<<<<< HEAD
 
+=======
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -49,10 +52,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="top-nav">
             	<span class="menu"> <img src="images/icon.png" alt=""></span>	
 				<ul class="res">
+<<<<<<< HEAD
 					<li><a href="<?php echo base_url(); ?>index.php/Home"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
 					<li><a class="active" href="<?php echo base_url(); ?>index.php/AboutUs"><i class="glyphicon glyphicon-user"> </i>About</a></li>					
 					<li><a href="events.html"><i class="glyphicon glyphicon-list-alt"> </i>Events</a></li>
 					
+=======
+					<li><a href="index.html"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
+					<li><a class="active" href="about.html"><i class="glyphicon glyphicon-user"> </i>About</a></li>					
+					<li><a href="events.html"><i class="glyphicon glyphicon-list-alt"> </i>Events</a></li>
+					<!--li><a href="blog.html"><i class="glyphicon glyphicon-picture"> </i>Blog</a></li-->
+					<li><a href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>Contact</a></li>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 				</ul>
 				<!-- script-for-menu -->
 							 <script>
@@ -80,9 +91,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!--point 1-->
 			  		<div class="col-md-6 about-bot-left" >
 			  			<div class="col-md-4 advan-cup" >
+<<<<<<< HEAD
 			  				<!--a href="#" rel="title" class="zoom-mask"-->
 							    <span class="glyphicon glyphicon-eye-open hovicon effect-4 sub-b"  aria-hidden="true"> </span>
 						    <!--/a-->
+=======
+			  				<a href="#" rel="title" class="zoom-mask">
+							    <span class="glyphicon glyphicon-user hovicon effect-4 sub-b"  aria-hidden="true"> </span>
+						    </a>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 			  			</div>
 			  			 <div class="col-md-8 advan-text" >
 				  				<h4>Get Register</h4>
@@ -94,7 +111,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  		<div class="col-md-6 about-bot-right" id="des2">
 			  			<div class="col-md-4 advan-cup" >
 			  				<!--a href="#" rel="title" class="zoom-mask"--> 
+<<<<<<< HEAD
 							       <span class="glyphicon glyphicon-leaf hovicon effect-4 sub-b" aria-hidden="true"> </span>
+=======
+							       <span class="glyphicon glyphicon-gift hovicon effect-4 sub-b" aria-hidden="true"> </span>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 						       <!--/a-->
 			  			</div>
 			  			 <div class="col-md-8 advan-text" >
@@ -110,7 +131,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  		<div class="col-md-6 about-bot-left" id="des3">
 			  			<div class="col-md-4 advan-cup">
 			  				<!--a href="#" rel="title" class="zoom-mask"-->
+<<<<<<< HEAD
 			  					 <span class="glyphicon glyphicon-eye-open  hovicon effect-4 sub-b" aria-hidden="true"> </span>							       
+=======
+			  					 <span class="glyphicon glyphicon-list hovicon effect-4 sub-b" aria-hidden="true"> </span>							       
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 						       <!--/a-->
 			  			</div>
 			  			 <div class="col-md-8 advan-text">
@@ -123,7 +148,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  		<div class="col-md-6 about-bot-right" id="des4">
 			  			<div class="col-md-4 advan-cup">
 			  				<!--a href="#" rel="title" class="zoom-mask"-->
+<<<<<<< HEAD
 							       <span class="glyphicon glyphicon-leaf hovicon effect-4 sub-b" aria-hidden="true"> </span>
+=======
+							       <span class="glyphicon glyphicon-heart-empty hovicon effect-4 sub-b" aria-hidden="true"> </span>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 						       <!--/a-->
 			  			</div>
 			  			 <div class="col-md-8 advan-text">
@@ -179,7 +208,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  <div class="col-md-3 team-grids">
 			    <!-- normal -->
 			    <div class="ih-item circle effect5"><a href="#">
+<<<<<<< HEAD
 			        <div class="img"><img src="<?php echo base_url(); ?>compassion/images/t1.jpg" alt="img" class="img-responsive"></div>
+=======
+			        <div class="img"><img src="images/t1.jpg" alt="img" class="img-responsive"></div>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 			        <div class="info">
 			          <div class="info-back">
 			            <h3>Individually, we are<br>one drop.<br>Together, we are<br>an ocean</h3>		          
@@ -199,7 +232,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  <div class="col-md-3 team-grids">
 			   <!-- normal -->
 			    <div class="ih-item circle effect5"><a href="#">
+<<<<<<< HEAD
 			        <div class="img"><img src="<?php echo base_url(); ?>compassion/images/t2.jpg" alt="img" class="img-responsive"></div>
+=======
+			        <div class="img"><img src="images/t2.jpg" alt="img" class="img-responsive"></div>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 			        <div class="info">
 			          <div class="info-back">
 			            <h3>Individually, we are<br>one drop.<br>Together, we are<br>an ocean</h3>		           	            
@@ -218,7 +255,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  <div class="col-md-3 team-grids">
 			    <!-- normal -->
 			    <div class="ih-item circle effect5"><a href="#">
+<<<<<<< HEAD
 			        <div class="img"><img src="<?php echo base_url(); ?>compassion/images/t3.jpg" alt="img" class="img-responsive"></div>
+=======
+			        <div class="img"><img src="images/t3.jpg" alt="img" class="img-responsive"></div>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 			        <div class="info">
 			          <div class="info-back">
 			            <h3>Individually, we are<br>one drop.<br>Together, we are<br>an ocean</h3>			       
@@ -237,7 +278,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			   <div class="col-md-3 team-grids">
 			    <!-- normal -->
 			    <div class="ih-item circle effect5"><a href="#">
+<<<<<<< HEAD
 			        <div class="img"><img src="<?php echo base_url(); ?>compassion/images/t4.jpg" alt="img" class="img-responsive"></div>
+=======
+			        <div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
 			        <div class="info">
 			          <div class="info-back">
 			            <h3>Individually, we are<br>one drop.<br>Together, we are<br>an ocean</h3>		           
@@ -329,4 +374,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--copy right end here-->
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> e235f41eb85880dde24d9107ddf20d01bdf338a3
